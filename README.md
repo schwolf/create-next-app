@@ -1,3 +1,12 @@
+Complete TUTORIAL on deploying Next.js to AWS Lambda with SST, Neon Postgres, Drizzle ORM, and more!
+
+https://youtu.be/T23Dv69j1JU?si=z02jYolU5n7ZTCKl
+
+Set secret:
+AWS_PROFILE=sst-production npx sst secrets set SECRET_VAL1 geheim --stage ...
+AWS_PROFILE=sst-production npx sst secrets set SECRET_VAL2 vertraulich --stage ...
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
