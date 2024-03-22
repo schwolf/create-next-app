@@ -6,6 +6,8 @@ Set secret:
 AWS_PROFILE=sst-production npx sst secrets set SECRET_VAL1 geheim --stage ...
 AWS_PROFILE=sst-production npx sst secrets set SECRET_VAL2 vertraulich --stage ...
 
+Note that the cloudfront distributions are disabled due to security reasons (DDOS).
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
